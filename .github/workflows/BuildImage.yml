@@ -13,7 +13,7 @@ env:
   GITHUB_REPO: "binarymelon/docker-mods" #don't modify
   ENDPOINT: "binarymelon/mods" #don't modify
   BASEIMAGE: "code-server" #replace
-  MODNAME: "code-server-java17" #replace
+  MODNAME: "java17" #replace
   MOD_VERSION: ${{ inputs.mod_version }} #don't modify
   MULTI_ARCH: "true" #set to false if not needed
 
